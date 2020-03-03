@@ -29,10 +29,10 @@ public class tjdd extends HttpServlet {
 		service.Select s = new service.Select();
 		req.getSession().setAttribute("stus", s.all());
 		resp.sendRedirect("index.jsp");
-		/*
-		 * req.setAttribute("stus", s.all());
-		 * req.getRequestDispatcher("/index.jsp").forward(req, resp);
-		 */
+		//
+		  //req.setAttribute("stus", s.all());
+		  //req.getRequestDispatcher("/index.jsp").forward(req, resp);
+		 //
 	}
 	
 }
